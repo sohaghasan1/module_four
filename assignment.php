@@ -2,9 +2,9 @@
 
 class product{
    // Add properties
-    public int $ProductId;
-    public string $ProductName;
-    public float $ProductPrice;
+    private int $ProductId;
+    private string $ProductName;
+    private float $ProductPrice;
 
     public function __construct(int $id,string $name,float $price)
     {
